@@ -1,5 +1,5 @@
 pillow
-pyside
+git+https://github.com/DCRS/pyside-setup
 configobj
 semantic_version
 appdirs

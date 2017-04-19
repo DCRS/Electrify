@@ -377,7 +377,8 @@ class CommandBase(object):
 
         data = json.loads(req.text)
 
-        versions = [d['name'].split(' ')[-1][1:] for d in data]
+        versions = [d['name'].split(' ')[1][1:] for d in data]
+
 
         electron_version = self.get_setting('electron_version')
 
